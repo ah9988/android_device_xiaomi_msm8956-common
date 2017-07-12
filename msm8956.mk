@@ -157,6 +157,10 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
     android.hardware.drm@1.0-service
 
+# VNDK-SP:
+PRODUCT_PACKAGES += \
+    vndk-sp
+
 # Face detection extension
 PRODUCT_PACKAGES += \
     org.codeaurora.camera
