@@ -9,3 +9,9 @@
 
 # IR Blaster
 /dev/lirc[0-9]*                                                       u:object_r:lirc_device:s0
+
+# flashlight
+/sys/devices/soc.0/qpnp-flash-led-23/leds/flashlight/brightness       u:object_r:sysfs_flashlight:s0
+
+# Fingerprint
+/(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.0-service-custom u:object_r:hal_fingerprint_default_exec:s0
