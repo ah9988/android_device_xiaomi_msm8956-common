@@ -33,8 +33,12 @@ EXTRA_VENDOR_LIBRARIES := \
     libhardware_legacy \
     libbinder \
     libui \
+    libdisplayconfig \
     android.hardware.configstore@1.0 \
-    android.hardware.configstore-utils
+    android.hardware.configstore-utils \
+    vendor.display.color@1.0 \
+    vendor.display.config@1.0 \
+    vendor.qti.hardware.iop@1.0
 
 #-------------------------------------------------------------------------------
 # VNDK Modules
